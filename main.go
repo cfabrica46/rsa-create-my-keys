@@ -91,6 +91,8 @@ func main() {
 
 	fmt.Printf("%x\n", dataEncriptada)
 
+	//activar para comprobar desencriptar encriptacion de openssl
+
 	//	dataEncriptada, err = ioutil.ReadFile("opensll.enc")
 	//
 	//	if err != nil {
