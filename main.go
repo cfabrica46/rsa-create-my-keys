@@ -263,7 +263,3 @@ func decrypt(dataEncriptada []byte, privateKey *rsa.PrivateKey) (dataDesencripta
 
 	return
 }
-
-//openssl rsautl -in txt.txt -out opensll.enc -pkcs -inkey private.pem -encrypt
-
-//openssl rsautl -in encrypt.enc -out t.txt -pkcs -inkey private.pem -decrypt
